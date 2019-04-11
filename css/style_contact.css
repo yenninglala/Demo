@@ -201,7 +201,7 @@ border: 2px solid #008CBA;
 background-color: black;
 color: white;
 }
-.form-test legend {
+.form-test div.led {
 font-size: 1.4em;
 margin-bottom: 10px;
 color:#666666;
@@ -246,6 +246,7 @@ left:968pt;
 }
 h1.huhu{
 	font-family: Lucida Handwriting;
+	text-align:center;
 }
 #myBtn {
   display: none;
@@ -270,4 +271,17 @@ h1.huhu{
 
 a.asd{
 	font-size: 20px;
+}
+div.HED{
+	cursor:pointer;
+	background-color:#666666;
+	width:1500px;
+	height:0px;
+	z-index:-2;
+}
+div.map{
+	max-width: 600px;
+	margin: 0px auto;
+	padding: 20px;
+
 }

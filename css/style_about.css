@@ -89,8 +89,8 @@ right: 35px;
 input.about_button
 {
 display: inline-block;
-margin-top: 50px;
-margin-left: 250px;
+margin-top: 20px;
+margin-left: 180px;
 padding: 15px;
 font-size: 15px;
 cursor: pointer;
@@ -112,8 +112,8 @@ transform: translateY(4px);
 div.about_about1{
 background-color: lightgray;
 color: black;
-width:380px;
-height:550px;
+width:280px;
+height:450px;
 }
 div.about_about1:hover {
 box-shadow: 5px 9px 4px gray;
@@ -121,8 +121,8 @@ box-shadow: 5px 9px 4px gray;
 div.about_about2{
 background-color: gray;
 color: white;
-width:380px;
-height:550px;
+width:280px;
+height:450px;
 }
 div.about_about2:hover {
 box-shadow: 5px 9px 4px black;
@@ -131,14 +131,14 @@ div.about_container{
 columns: 4;
 padding:20px 50px;
 position: absolute;
-left:20px;
+text-align: center;
 }
 h3.about{
 padding: 10px;
 }
 img.about_p{
-width:300px;
-height: 300px;
+width:250px;
+height: 250px;
 padding: 20px 10px 0px 10px;
 }
 p.about{
@@ -156,7 +156,8 @@ color: white;
 img.about_p2{
 position: absolute;
 z-index:-1;
-width:1700px;
-height:550px;
-padding:40px 50px 0px;
+width:1210px;
+height:420px;
+left: 30px;
+top: 150px;
 }
