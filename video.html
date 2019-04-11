@@ -10,7 +10,7 @@
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 		<title>中原一卡通</title>
 	</head>
-	<body background="images/6.gif">
+	<body  style="background-image:url('images/6.gif')">
 		<div id="container">
 			<header>
 				<div id="myNav" class="overlay">
@@ -24,8 +24,8 @@
 					</div>
 				</div>
 				<span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
-				<a align="center" style="font-size:23px; color: #666666;">Video</a>
-				<script type="text/javascript">
+				<a  style="font-size:23px; color: #666666;">Video</a>
+				<script>
 				function openNav() {
 				document.getElementById("myNav").style.height = "100%";
 				}
@@ -37,12 +37,13 @@
 			<main >
 				<div id="containera">
 					<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
-					<div class="animated infinite bounce" id="a" align="center">Our campus</div><br>
-					<center><div id="b" ><p>一位位滿懷大學夢的準大學生,幸運地就讀了私立註冊率最高的中原大學,看著手中剛拿到的學生證,每個人都想知道到底有多神通廣大,就讓這部影片來告訴你吧!</p></div><br></center>
-					<center>
-					
-					
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/kDQCBZN-mwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+					<div class="animated infinite bounce" id="a" style="text-align:center;" >Our campus</div><br>
+					<div id="b"><p >一位位滿懷大學夢的準大學生,幸運地就讀了私立註冊率最高的中原大學,看著手中剛拿到的學生證,每個人都想知道到底有多神通廣大,就讓這部影片來告訴你吧!</p></div><br>
+					<div style="max-width: 600px;
+	margin: 0px auto;
+	padding: 20px;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/kDQCBZN-mwk"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border:0px; "></iframe>
+					</div>
 					<br><br><div id="c">Photos</div>
 					<div id="f" ><p>這是來自觀音的曾同學,剛考上中原大學的他,對於手上那張可以任行中原校園的學生證感到十分訝異。</p></div>
 					<div id="d">
@@ -51,7 +52,7 @@
 						<div class="slideshow-container">
 							<div id="myModal" class="modal">
 								<span class="close">&times;</span>
-								<img class="modal-content" id="img01">
+								<img src="images/88.jpg" alt="小瑜劇照" class="modal-content" id="img01">
 								<div id="caption"></div>
 							</div>
 						</div>
@@ -81,7 +82,7 @@
 								<!-- The Modal -->
 								<div id="myModal1" class="modal1">
 									<span class="close1">&times;</span>
-									<img class="modal-content1" id="img02">
+									<img src="images/36.jpg" alt="某柯姓組員賞犬" class="modal-content1" id="img02">
 									<div id="caption1"></div>
 								</div>
 								<script>
