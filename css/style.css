@@ -122,7 +122,6 @@ right: 35px;
   font-size: 20px;
   position: absolute;
   top: 50%;
-  right: -90%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
